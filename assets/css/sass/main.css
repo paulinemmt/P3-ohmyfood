@@ -19,6 +19,12 @@ footer a {
   font-size: 1.3rem;
 }
 
+.main_soon {
+  font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+  color: #fcca46;
+  font-size: 2rem;
+}
+
 header {
   background-color: #569c87;
 }
@@ -46,5 +52,73 @@ footer {
 
 footer a:hover {
   font-weight: bold;
+}
+
+.main_menusection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-right: 160px;
+  margin-left: 160px;
+  margin-top: 32px;
+}
+
+.main_menusection div {
+  min-width: 30rem;
+  height: 40rem;
+  text-align: center;
+  margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_menusection .section_menu1 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #fcdfdb;
+}
+
+.main_menusection .section_menu2 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #fff5fe;
+}
+
+.main_menusection .section_menu3 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #f9f9f9;
+}
+
+.main_menusection .section_menu4 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #fdfffd;
+}
+
+.main_soon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main_soon p {
+  background-color: #569c87;
+  padding: 0.7rem;
+  border-radius: 10px;
+  margin-bottom: 64px;
 }
 /*# sourceMappingURL=main.css.map */
