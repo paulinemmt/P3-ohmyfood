@@ -1,3 +1,9 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration:none;
+}
 header{
     h1{
         color:$secondary-color;
@@ -13,6 +19,30 @@ footer{
         color:$secondary-color;
         font-size:1.3rem;
     }
+}
+.menu1_menutitle{
+    @include font-menu ($font-menu1-title);
+}
+.menu1_menuword{
+    @include font-menu ($font-menu1-menu);
+}
+.menu2_menutitle{
+    @include font-menu ($font-menu2-title);
+}
+.menu2_menuword{
+    @include font-menu ($font-menu2-menu);
+}
+.menu3_menutitle{
+    @include font-menu ($font-menu3-title);
+}
+.menu3_menuword{
+    @include font-menu ($font-menu3-menu);
+}
+.menu4_menutitle{
+    @include font-menu ($font-menu4-title);
+}
+.menu4_menuword{
+    @include font-menu ($font-menu4-menu);
 }
 .main_soon{
     font-family:'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;

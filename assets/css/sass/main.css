@@ -5,6 +5,14 @@ body {
   font-size: 1rem;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
 header h1 {
   color: #fcca46;
   font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
@@ -17,6 +25,46 @@ footer a {
   font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
   color: #fcca46;
   font-size: 1.3rem;
+}
+
+.menu1_menutitle {
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 2rem;
+}
+
+.menu1_menuword {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+}
+
+.menu2_menutitle {
+  font-family: "Lobster Two";
+  font-size: 2rem;
+}
+
+.menu2_menuword {
+  font-family: "Vidaloka";
+  font-size: 2rem;
+}
+
+.menu3_menutitle {
+  font-family: "Parisienne";
+  font-size: 2rem;
+}
+
+.menu3_menuword {
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
+}
+
+.menu4_menutitle {
+  font-family: "Caveat", cursive;
+  font-size: 2rem;
+}
+
+.menu4_menuword {
+  font-family: "Kalam", cursive;
+  font-size: 2rem;
 }
 
 .main_soon {
