@@ -13,10 +13,10 @@
     -webkit-text-fill-color: transparent;
 }
 
-@mixin menu-zoom-anim{
+@mixin menu-zoom-anim {
     transform:scale(1);
-    transition:scale 1s ease;
-        &:hover{
-            transform:scale(1.15);
+    transition: transform 400ms; 
+        &:hover {
+            transform: scale(1.15);
         }
 }

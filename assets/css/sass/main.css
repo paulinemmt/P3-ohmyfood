@@ -172,8 +172,10 @@ footer a:hover {
 .main_menusection .link_menu1 .section_menu1 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: scale 1s ease;
-  transition: scale 1s ease;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
 }
 
 .main_menusection .link_menu1 .section_menu1:hover {
@@ -190,8 +192,10 @@ footer a:hover {
 .main_menusection .link_menu2 .section_menu2 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: scale 1s ease;
-  transition: scale 1s ease;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
 }
 
 .main_menusection .link_menu2 .section_menu2:hover {
@@ -208,8 +212,10 @@ footer a:hover {
 .main_menusection .link_menu3 .section_menu3 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: scale 1s ease;
-  transition: scale 1s ease;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
 }
 
 .main_menusection .link_menu3 .section_menu3:hover {
@@ -226,8 +232,10 @@ footer a:hover {
 .main_menusection .link_menu4 .section_menu4 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: scale 1s ease;
-  transition: scale 1s ease;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
 }
 
 .main_menusection .link_menu4 .section_menu4:hover {
