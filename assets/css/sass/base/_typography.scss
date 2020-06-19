@@ -1,5 +1,6 @@
 body{
     font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
 a{
     text-decoration:none;
@@ -12,6 +13,58 @@ header{
         font-size:2.5rem;
     }
 }
+.link_menu1{
+    color:$font-color-menu1;
+    .menu1_icone{
+        @include color-gradient ($font-color-icone-start, $font-color-icone-end);
+    }
+    .menu1_menutitle{
+    @include font-menu ($font-menu1-title);
+    font-size:$font-size-menutitle;
+    }
+    .menu1_menuword{
+    @include font-menu ($font-menu1-menu);
+    font-size:$font-size-menuword;
+    }
+}
+.link_menu2{ 
+    .menu2_menutitle{
+        @include font-menu ($font-menu2-title);
+        @include color-gradient ($font-color-menu2, $font-colortrans-menu2);
+    } 
+    .menu2_menuword{
+    color:$font-color-menu2;
+    @include font-menu ($font-menu2-menu);
+    font-size:$font-size-menuword;
+    }
+}
+.link_menu3{ 
+    .menu3_menutitle{
+        @include font-menu ($font-menu3-title);
+        @include color-gradient ($font-color-menu3, $font-colortrans-menu3);
+    }
+    .menu3_menuword{
+        @include font-menu ($font-menu3-menu);
+        color:$font-color-menu3;
+        font-size:$font-size-menuword;
+    }
+}
+.link_menu4{ 
+.menu4_menutitle{
+    @include font-menu ($font-menu4-title);
+    @include color-gradient ($font-color-menu4, $font-colortrans-menu4);
+}
+.menu4_menuword{
+    @include font-menu ($font-menu4-menu);
+    color:$font-color-menu4;
+    font-size:$font-size-menuword;
+}
+}
+.main_soon{
+    font-family:'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+        color:$secondary-color;
+        font-size:2rem;
+}
 footer{
     a{
         text-decoration:none;
@@ -19,33 +72,4 @@ footer{
         color:$secondary-color;
         font-size:1.3rem;
     }
-}
-.menu1_menutitle{
-    @include font-menu ($font-menu1-title);
-}
-.menu1_menuword{
-    @include font-menu ($font-menu1-menu);
-}
-.menu2_menutitle{
-    @include font-menu ($font-menu2-title);
-}
-.menu2_menuword{
-    @include font-menu ($font-menu2-menu);
-}
-.menu3_menutitle{
-    @include font-menu ($font-menu3-title);
-}
-.menu3_menuword{
-    @include font-menu ($font-menu3-menu);
-}
-.menu4_menutitle{
-    @include font-menu ($font-menu4-title);
-}
-.menu4_menuword{
-    @include font-menu ($font-menu4-menu);
-}
-.main_soon{
-    font-family:'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
-        color:$secondary-color;
-        font-size:2rem;
 }

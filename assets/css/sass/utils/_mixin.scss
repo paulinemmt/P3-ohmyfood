@@ -6,3 +6,17 @@
     font-family:$font-family;
     font-size:2rem;
 }
+@mixin color-gradient ($color-start, $color-end){
+    font-size:$font-size-menutitle;
+    background: -webkit-linear-gradient(right, $color-start,$color-end);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@mixin menu-zoom-anim{
+    transform:scale(1);
+    transition:scale 1s ease;
+        &:hover{
+            transform:scale(1.15);
+        }
+}

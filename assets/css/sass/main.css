@@ -7,6 +7,7 @@ body {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
 }
 
 a {
@@ -20,57 +21,88 @@ header h1 {
   font-size: 2.5rem;
 }
 
-footer a {
-  text-decoration: none;
-  font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
-  color: #fcca46;
-  font-size: 1.3rem;
+.link_menu1 {
+  color: #3c1218;
 }
 
-.menu1_menutitle {
+.link_menu1 .menu1_icone {
+  font-size: 2.6rem;
+  background: -webkit-linear-gradient(right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.link_menu1 .menu1_menutitle {
   font-family: "Ma Shan Zheng", cursive;
   font-size: 2rem;
+  font-size: 2.6rem;
 }
 
-.menu1_menuword {
+.link_menu1 .menu1_menuword {
   font-family: "Caveat", cursive;
   font-size: 2rem;
+  font-size: 3.1rem;
 }
 
-.menu2_menutitle {
+.link_menu2 .menu2_menutitle {
   font-family: "Lobster Two";
   font-size: 2rem;
+  font-size: 2.6rem;
+  background: -webkit-linear-gradient(right, #c77412, #905bfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.menu2_menuword {
+.link_menu2 .menu2_menuword {
+  color: #c77412;
   font-family: "Vidaloka";
   font-size: 2rem;
+  font-size: 3.1rem;
 }
 
-.menu3_menutitle {
+.link_menu3 .menu3_menutitle {
   font-family: "Parisienne";
   font-size: 2rem;
+  font-size: 2.6rem;
+  background: -webkit-linear-gradient(right, #0887fb, #0431df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.menu3_menuword {
+.link_menu3 .menu3_menuword {
   font-family: "Kalam", cursive;
   font-size: 2rem;
+  color: #0887fb;
+  font-size: 3.1rem;
 }
 
-.menu4_menutitle {
+.link_menu4 .menu4_menutitle {
   font-family: "Caveat", cursive;
   font-size: 2rem;
+  font-size: 2.6rem;
+  background: -webkit-linear-gradient(right, #72bf56, #bfff7e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.menu4_menuword {
+.link_menu4 .menu4_menuword {
   font-family: "Kalam", cursive;
   font-size: 2rem;
+  color: #72bf56;
+  font-size: 3.1rem;
 }
 
 .main_soon {
   font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
   color: #fcca46;
   font-size: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+  color: #fcca46;
+  font-size: 1.3rem;
 }
 
 header {
@@ -115,7 +147,7 @@ footer a:hover {
   margin-top: 32px;
 }
 
-.main_menusection div {
+.main_menusection a {
   min-width: 30rem;
   height: 40rem;
   text-align: center;
@@ -131,28 +163,76 @@ footer a:hover {
           align-items: center;
 }
 
-.main_menusection .section_menu1 {
+.main_menusection .link_menu1 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fcdfdb;
 }
 
-.main_menusection .section_menu2 {
+.main_menusection .link_menu1 .section_menu1 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: scale 1s ease;
+  transition: scale 1s ease;
+}
+
+.main_menusection .link_menu1 .section_menu1:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.main_menusection .link_menu2 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fff5fe;
 }
 
-.main_menusection .section_menu3 {
+.main_menusection .link_menu2 .section_menu2 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: scale 1s ease;
+  transition: scale 1s ease;
+}
+
+.main_menusection .link_menu2 .section_menu2:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.main_menusection .link_menu3 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #f9f9f9;
 }
 
-.main_menusection .section_menu4 {
+.main_menusection .link_menu3 .section_menu3 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: scale 1s ease;
+  transition: scale 1s ease;
+}
+
+.main_menusection .link_menu3 .section_menu3:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.main_menusection .link_menu4 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fdfffd;
+}
+
+.main_menusection .link_menu4 .section_menu4 {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: scale 1s ease;
+  transition: scale 1s ease;
+}
+
+.main_menusection .link_menu4 .section_menu4:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 .main_soon {
