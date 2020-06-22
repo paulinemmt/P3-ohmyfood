@@ -30,21 +30,23 @@ header h1 {
   background: -webkit-linear-gradient(right, #f04a5e, #f78f6a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-size: 4rem;
 }
 
-.link_menu1 .menu1_menutitle {
+.link_menu1 .menu1_title {
   font-family: "Ma Shan Zheng", cursive;
   font-size: 2rem;
   font-size: 2.6rem;
 }
 
-.link_menu1 .menu1_menuword {
+.link_menu1 .menu1_content {
   font-family: "Caveat", cursive;
   font-size: 2rem;
   font-size: 3.1rem;
+  text-transform: uppercase;
 }
 
-.link_menu2 .menu2_menutitle {
+.link_menu2 .menu2_title {
   font-family: "Lobster Two";
   font-size: 2rem;
   font-size: 2.6rem;
@@ -53,14 +55,14 @@ header h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.link_menu2 .menu2_menuword {
+.link_menu2 .menu2_content {
   color: #c77412;
   font-family: "Vidaloka";
   font-size: 2rem;
   font-size: 3.1rem;
 }
 
-.link_menu3 .menu3_menutitle {
+.link_menu3 .menu3_title {
   font-family: "Parisienne";
   font-size: 2rem;
   font-size: 2.6rem;
@@ -69,14 +71,14 @@ header h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.link_menu3 .menu3_menuword {
+.link_menu3 .menu3_content {
   font-family: "Kalam", cursive;
   font-size: 2rem;
   color: #0887fb;
   font-size: 3.1rem;
 }
 
-.link_menu4 .menu4_menutitle {
+.link_menu4 .menu4_title {
   font-family: "Caveat", cursive;
   font-size: 2rem;
   font-size: 2.6rem;
@@ -85,7 +87,7 @@ header h1 {
   -webkit-text-fill-color: transparent;
 }
 
-.link_menu4 .menu4_menuword {
+.link_menu4 .menu4_content {
   font-family: "Kalam", cursive;
   font-size: 2rem;
   color: #72bf56;
@@ -115,6 +117,100 @@ header h1 {
   padding: 1.2rem;
 }
 
+@-webkit-keyframes wiggle {
+  0% {
+    -webkit-transform: skewX(9deg);
+            transform: skewX(9deg);
+  }
+  10% {
+    -webkit-transform: skewX(-8deg);
+            transform: skewX(-8deg);
+  }
+  20% {
+    -webkit-transform: skewX(7deg);
+            transform: skewX(7deg);
+  }
+  30% {
+    -webkit-transform: skewX(-6deg);
+            transform: skewX(-6deg);
+  }
+  40% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+  }
+  50% {
+    -webkit-transform: skewX(-4deg);
+            transform: skewX(-4deg);
+  }
+  60% {
+    -webkit-transform: skewX(3deg);
+            transform: skewX(3deg);
+  }
+  70% {
+    -webkit-transform: skewX(-2deg);
+            transform: skewX(-2deg);
+  }
+  80% {
+    -webkit-transform: skewX(1deg);
+            transform: skewX(1deg);
+  }
+  90% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+  100% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+}
+
+@keyframes wiggle {
+  0% {
+    -webkit-transform: skewX(9deg);
+            transform: skewX(9deg);
+  }
+  10% {
+    -webkit-transform: skewX(-8deg);
+            transform: skewX(-8deg);
+  }
+  20% {
+    -webkit-transform: skewX(7deg);
+            transform: skewX(7deg);
+  }
+  30% {
+    -webkit-transform: skewX(-6deg);
+            transform: skewX(-6deg);
+  }
+  40% {
+    -webkit-transform: skewX(5deg);
+            transform: skewX(5deg);
+  }
+  50% {
+    -webkit-transform: skewX(-4deg);
+            transform: skewX(-4deg);
+  }
+  60% {
+    -webkit-transform: skewX(3deg);
+            transform: skewX(3deg);
+  }
+  70% {
+    -webkit-transform: skewX(-2deg);
+            transform: skewX(-2deg);
+  }
+  80% {
+    -webkit-transform: skewX(1deg);
+            transform: skewX(1deg);
+  }
+  90% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+  100% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+}
+
 footer {
   background-color: #569c87;
   display: -webkit-box;
@@ -132,9 +228,11 @@ footer {
 
 footer a:hover {
   font-weight: bold;
+  -webkit-animation: wiggle 1s 1s infinite;
+          animation: wiggle 1s 1s infinite;
 }
 
-.main_menusection {
+.main_menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,7 +245,7 @@ footer a:hover {
   margin-top: 32px;
 }
 
-.main_menusection a {
+.main_menu a {
   min-width: 30rem;
   height: 40rem;
   text-align: center;
@@ -163,13 +261,13 @@ footer a:hover {
           align-items: center;
 }
 
-.main_menusection .link_menu1 {
+.main_menu .link_menu1 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fcdfdb;
 }
 
-.main_menusection .link_menu1 .section_menu1 {
+.main_menu .link_menu1 .section_menu1 {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: -webkit-transform 400ms;
@@ -178,18 +276,22 @@ footer a:hover {
   transition: transform 400ms, -webkit-transform 400ms;
 }
 
-.main_menusection .link_menu1 .section_menu1:hover {
+.main_menu .link_menu1 .section_menu1:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
 
-.main_menusection .link_menu2 {
+.main_menu .link_menu1 .section_menu1 .menu1_menutitle {
+  margin-top: 0px;
+}
+
+.main_menu .link_menu2 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fff5fe;
 }
 
-.main_menusection .link_menu2 .section_menu2 {
+.main_menu .link_menu2 .section_menu2 {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: -webkit-transform 400ms;
@@ -198,18 +300,18 @@ footer a:hover {
   transition: transform 400ms, -webkit-transform 400ms;
 }
 
-.main_menusection .link_menu2 .section_menu2:hover {
+.main_menu .link_menu2 .section_menu2:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
 
-.main_menusection .link_menu3 {
+.main_menu .link_menu3 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #f9f9f9;
 }
 
-.main_menusection .link_menu3 .section_menu3 {
+.main_menu .link_menu3 .section_menu3 {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: -webkit-transform 400ms;
@@ -218,18 +320,18 @@ footer a:hover {
   transition: transform 400ms, -webkit-transform 400ms;
 }
 
-.main_menusection .link_menu3 .section_menu3:hover {
+.main_menu .link_menu3 .section_menu3:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
 
-.main_menusection .link_menu4 {
+.main_menu .link_menu4 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fdfffd;
 }
 
-.main_menusection .link_menu4 .section_menu4 {
+.main_menu .link_menu4 .section_menu4 {
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: -webkit-transform 400ms;
@@ -238,7 +340,7 @@ footer a:hover {
   transition: transform 400ms, -webkit-transform 400ms;
 }
 
-.main_menusection .link_menu4 .section_menu4:hover {
+.main_menu .link_menu4 .section_menu4:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
 }
@@ -256,6 +358,46 @@ footer a:hover {
   padding: 0.7rem;
   border-radius: 10px;
   margin-bottom: 64px;
+}
+
+.main_soon p .anim-point1 {
+  display: inline-block;
+  -webkit-animation: transdot 500ms infinite alternate;
+          animation: transdot 500ms infinite alternate;
+}
+
+.main_soon p .anim-point2 {
+  display: inline-block;
+  -webkit-animation: transdot 500ms 250ms infinite alternate;
+          animation: transdot 500ms 250ms infinite alternate;
+}
+
+.main_soon p .anim-point3 {
+  display: inline-block;
+  -webkit-animation: transdot 500ms 500ms infinite alternate;
+          animation: transdot 500ms 500ms infinite alternate;
+}
+
+@-webkit-keyframes transdot {
+  0% {
+    -webkit-transform: translateY(Opx);
+            transform: translateY(Opx);
+  }
+  100% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
+}
+
+@keyframes transdot {
+  0% {
+    -webkit-transform: translateY(Opx);
+            transform: translateY(Opx);
+  }
+  100% {
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+  }
 }
 
 .menu_pages {
