@@ -226,10 +226,13 @@ footer {
   padding: 1.1rem;
 }
 
+footer a {
+  display: inline-block;
+}
+
 footer a:hover {
-  font-weight: bold;
-  -webkit-animation: wiggle 1s 1s infinite;
-          animation: wiggle 1s 1s infinite;
+  -webkit-animation: wiggle 1000ms infinite;
+          animation: wiggle 1000ms infinite;
 }
 
 .main_menu {
