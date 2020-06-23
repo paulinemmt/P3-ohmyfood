@@ -24,14 +24,21 @@ $font-color-icone-end:#f78f6a;
 $font-size-logo:2.8rem;
 $font-size-title:2.4rem;
 $font-size-menutitle:2.6rem;
+$font-size-menutitle-page:5rem;
 $font-size-dishtitle:2rem;
 $font-size-menuword:3.1rem;
 $font-size-icone:4rem;
 $font-size-menucontent:1.4rem;
 
 /*dimension image*/
+$height-menu1-line: 16px;
+$width-menu1-line: 294px;
 $height-menu2-line: 52.8px;
 $width-menu2-line: 286.4px;
+$height-menu3-line: 52.8px;
+$width-menu3-line: 286.4px;
+$height-menu4-line: 27.2px;
+$width-menu4-line: 331.2px;
 
 /*police*/
 $font-menu-title: arial, verdana, lucida;
@@ -45,5 +52,5 @@ $font-menu4-title:'Caveat', cursive;
 $font-menu4-menu: 'Kalam', cursive;
 
 /*marge*/
-$margin-menu:1rem 10rem 5rem 10rem;
+$margin-menu:1rem 8rem 5rem 8rem;
 $padding-menu:5rem 5rem 5rem 5rem;

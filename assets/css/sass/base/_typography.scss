@@ -1,3 +1,4 @@
+/*accueil*/
 a{
     text-decoration:none;
 }
@@ -66,50 +67,68 @@ footer{
         font-size:1.3rem;
     }
 }
-.menu_pages{
-.section_menu1{
-    .menu1_content{
-        @include font-menu ($font-menu1-menu, $font-size-menucontent);
-}
-}
-}
+
+/*pages annexes*/
 .menu_pages{
     .title{
         @include font-menu ($font-menu-title, $font-size-title); 
     }
+    .section_menu1{
+        .menu1_title{
+            @include font-menu ($font-menu1-title, $font-size-menutitle-page); 
+        }
+        .menu1_content{
+            @include font-menu ($font-menu1-menu, $font-size-menucontent);
+                .dish_title{
+                    font-size:$font-size-dishtitle;
+                }
+        }
+    } 
     .section_menu2{
         .menu2_title{
-            @include font-menu ($font-menu2-title, $font-size-menutitle); 
+            @include font-menu ($font-menu2-title, $font-size-menutitle-page); 
             @include color-gradient ($font-color-menu2, $font-colortrans-menu2); 
         }
         .menu2_content{
         @include font-menu ($font-menu2-menu, $font-size-menucontent);
-        .dish_title{
-            font-size:$font-size-dishtitle;
-        }
-        .dish_starter{
-            color:$font-color-menu2;
-        }
-        .dish_main{
-            color:$font-color-menu2-main;
-        }
-        .dish_dessert{
-            color:$font-colortrans-menu2;
+            .dish_title{
+                font-size:$font-size-dishtitle;
+            }
+            .dish_starter{
+                color:$font-color-menu2;
+            }
+            .dish_main{
+                color:$font-color-menu2-main;
+            }
+            .dish_dessert{
+                color:$font-colortrans-menu2;
+            }
         }
     }
-    }
-    }
-.menu_pages{
     .section_menu3{
+        .menu3_title{
+            @include font-menu ($font-menu3-title, $font-size-menutitle-page); 
+            @include color-gradient ($font-color-menu3, $font-colortrans-menu3); 
+        }
         .menu3_content{
             @include font-menu ($font-menu3-menu, $font-size-menucontent);
+                .dish_title{
+                    font-size:$font-size-dishtitle;
+            }
         }
-        }
-        }
-.menu_pages{
+    }
     .section_menu4{
+        .menu4_title{
+            @include font-menu ($font-menu4-title, $font-size-menutitle-page); 
+            @include color-gradient ($font-color-menu4, $font-colortrans-menu4); 
+        }
         .menu4_content{
-                @include font-menu ($font-menu4-menu, $font-size-menucontent);
-            }
-            }
-            }
+            @include font-menu ($font-menu4-menu, $font-size-menucontent);
+                .dish_title{
+                    font-size:$font-size-dishtitle;
+                }
+        }
+    } 
+}
+
+

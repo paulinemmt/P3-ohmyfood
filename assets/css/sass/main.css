@@ -12,6 +12,7 @@ body {
   font-size: 1rem;
 }
 
+/*accueil*/
 a {
   text-decoration: none;
 }
@@ -104,19 +105,29 @@ footer a {
   font-size: 1.3rem;
 }
 
-.menu_pages .section_menu1 .menu1_content {
-  font-family: "Caveat", cursive;
-  font-size: 1.4rem;
-}
-
+/*pages annexes*/
 .menu_pages .title {
   font-family: arial, verdana, lucida;
   font-size: 2.4rem;
 }
 
+.menu_pages .section_menu1 .menu1_title {
+  font-family: "Ma Shan Zheng", cursive;
+  font-size: 5rem;
+}
+
+.menu_pages .section_menu1 .menu1_content {
+  font-family: "Caveat", cursive;
+  font-size: 1.4rem;
+}
+
+.menu_pages .section_menu1 .menu1_content .dish_title {
+  font-size: 2rem;
+}
+
 .menu_pages .section_menu2 .menu2_title {
   font-family: "Lobster Two";
-  font-size: 2.6rem;
+  font-size: 5rem;
   font-size: 2.6rem;
   background: -webkit-linear-gradient(right, #c77412, #905bfd);
   -webkit-background-clip: text;
@@ -144,14 +155,40 @@ footer a {
   color: #905bfd;
 }
 
+.menu_pages .section_menu3 .menu3_title {
+  font-family: "Parisienne";
+  font-size: 5rem;
+  font-size: 2.6rem;
+  background: -webkit-linear-gradient(right, #0887fb, #0431df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .menu_pages .section_menu3 .menu3_content {
   font-family: "Kalam", cursive;
   font-size: 1.4rem;
 }
 
+.menu_pages .section_menu3 .menu3_content .dish_title {
+  font-size: 2rem;
+}
+
+.menu_pages .section_menu4 .menu4_title {
+  font-family: "Caveat", cursive;
+  font-size: 5rem;
+  font-size: 2.6rem;
+  background: -webkit-linear-gradient(right, #72bf56, #bfff7e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .menu_pages .section_menu4 .menu4_content {
   font-family: "Kalam", cursive;
   font-size: 1.4rem;
+}
+
+.menu_pages .section_menu4 .menu4_content .dish_title {
+  font-size: 2rem;
 }
 
 header {
@@ -544,15 +581,25 @@ footer a:hover {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fcdfdb;
-  margin: 1rem 10rem 5rem 10rem;
+  margin: 1rem 8rem 5rem 8rem;
   padding: 5rem 5rem 5rem 5rem;
+}
+
+.menu_pages .section_menu1 .menu1_title {
+  margin-bottom: 80px;
+}
+
+.menu_pages .section_menu1 .menu1_line {
+  height: 16px;
+  width: 294px;
+  display: inline-block;
 }
 
 .menu_pages .section_menu2 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fff5fe;
-  margin: 1rem 10rem 5rem 10rem;
+  margin: 1rem 8rem 5rem 8rem;
   padding: 5rem 5rem 5rem 5rem;
 }
 
@@ -570,15 +617,35 @@ footer a:hover {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #f9f9f9;
-  margin: 1rem 10rem 5rem 10rem;
+  margin: 1rem 8rem 5rem 8rem;
   padding: 5rem 5rem 5rem 5rem;
+}
+
+.menu_pages .section_menu3 .menu3_title {
+  margin-bottom: 80px;
+}
+
+.menu_pages .section_menu3 .menu3_line {
+  height: 52.8px;
+  width: 286.4px;
+  display: inline-block;
 }
 
 .menu_pages .section_menu4 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fdfffd;
-  margin: 1rem 10rem 5rem 10rem;
+  margin: 1rem 8rem 5rem 8rem;
   padding: 5rem 5rem 5rem 5rem;
+}
+
+.menu_pages .section_menu4 .menu4_title {
+  margin-bottom: 80px;
+}
+
+.menu_pages .section_menu4 .menu4_line {
+  height: 27.2px;
+  width: 331.2px;
+  display: inline-block;
 }
 /*# sourceMappingURL=main.css.map */
