@@ -46,3 +46,8 @@
         transform:scaleX(1);
     }
 }
+@mixin font-mlegal($color, $size){
+    font-family:$font-mlegal;
+    color:$color;
+    font-size:$size;
+}

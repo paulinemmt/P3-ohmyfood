@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*couleur header et footer*/
 /*couleur de fond*/
 /*couleur de police*/
@@ -17,7 +18,7 @@ a {
   text-decoration: none;
 }
 
-header h1 {
+header h1 a {
   color: #fcca46;
   font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
   font-weight: bold;
@@ -189,6 +190,39 @@ footer a {
 
 .menu_pages .section_menu4 .menu4_content .dish_title {
   font-size: 2rem;
+}
+
+/*mentions légales*/
+.mlegal_content {
+  font-family: "Montserrat", "Lucida Sans", "Lucida Sans Regular", Verdana, sans-serif;
+  color: #353535;
+  font-size: 1rem;
+}
+
+.mlegal_content .mlegal_title {
+  font-family: "Montserrat", "Lucida Sans", "Lucida Sans Regular", Verdana, sans-serif;
+  color: #569c87;
+  font-size: 2.4rem;
+}
+
+.mlegal_content .mlegal_identity {
+  text-transform: uppercase;
+}
+
+.mlegal_content .mlegal_identity .mlegal_subtitle {
+  font-family: "Montserrat", "Lucida Sans", "Lucida Sans Regular", Verdana, sans-serif;
+  color: #fcca46;
+  font-size: 2rem;
+}
+
+.mlegal_content .mlegal_information .note_number {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.mlegal_content .mlegal_information .mlegal_note {
+  font-style: italic;
+  font-size: 0.8rem;
 }
 
 header {
@@ -647,5 +681,31 @@ footer a:hover {
   height: 27.2px;
   width: 331.2px;
   display: inline-block;
+}
+
+.mlegal_content {
+  margin: 3rem 3rem 0rem 3rem;
+  text-align: center;
+}
+
+.mlegal_content .mlegal_title {
+  margin: 4rem 0rem;
+}
+
+.mlegal_content .mlegal_identity {
+  margin: 4rem auto;
+  width: 50rem;
+  border: 1px solid #569c87;
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+}
+
+.mlegal_content .mlegal_information .mlegal_subtitle {
+  margin-top: 4rem;
+}
+
+.mlegal_content .mlegal_information .mlegal_note {
+  text-align: left;
+  margin-top: 6rem;
 }
 /*# sourceMappingURL=main.css.map */
