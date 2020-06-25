@@ -6,8 +6,9 @@ $border-color:#a1c181;
 /*couleur de fond*/
 $menu1-color:#fcdfdb;
 $menu2-color:#fff5fe;
-$menu3-color:#f9f9f9;
+$menu3-color:#edefef;
 $menu4-color:#fdfffd;
+
 
 /*couleur de police*/
 $font-color-menu1:#3c1218;
@@ -16,51 +17,89 @@ $font-colortrans-menu2:#c77412;
 $font-color-menu2-main:#a56799;
 $font-color-menu3:#229df9;
 $font-colortrans-menu3:#0431df;
-$font-color-menu4:#72bf56;
-$font-colortrans-menu4:#bfff7e;
+$font-color-menu4:#3d923a;
+$font-colortrans-menu4:#beff7f;
+$font-color-title:#353535;
 $font-color-icone-start:#f04a5e;
 $font-color-icone-end:#f78f6a;
-$font-color-title:#353535;
+
 $font-color-mlegal-title:#569c87;
 $font-color-mlegal-subtitle:#fcca46;;
 $font-color-mlegal-text:#353535;
 
+
 /*taille de police*/
 $font-size-logo:2.8rem;
+
 $font-size-title:2.4rem;
 $font-size-menutitle:2.6rem;
-$font-size-menutitle-page:5rem;
-$font-size-dishtitle:2rem;
 $font-size-menuword:3.1rem;
 $font-size-icone:4rem;
-$font-size-menucontent:1.4rem;
+
+$font-size-menutitle-page1:4rem;
+$font-size-dishtitle1:3rem;
+$font-size-menucontent1:2rem;
+$font-size-iconepage:6rem;
+$font-size-endnote:3rem;
+$font-size-title-endnote:2rem;
+
+$font-size-menutitle-page2:4rem;
+$font-size-dishtitle2:2rem;
+$font-size-menucontent2:1.4rem;
+
+$font-size-menutitle-page3:5rem;
+$font-size-dishtitle3:2.3rem;
+$font-size-menucontent3:1.7rem;
+$font-size-price3:2.2rem;
+
+$font-size-menutitle-page4:6rem;
+$font-size-dishtitle4:2rem;
+$font-size-menucontent4:1.3rem;
+$font-size-price4:1.7rem;
+
 $font-size-mlegal-title:2.4rem;
 $font-size-mlegal-subtitle:2rem;
 $font-size-mlegal-text:1rem;
 $font-size-mlegal-note:0.8rem;
 
+
 /*dimension image*/
-$height-menu1-line: 16px;
-$width-menu1-line: 294px;
-$height-menu2-line: 52.8px;
-$width-menu2-line: 286.4px;
-$height-menu3-line: 52.8px;
-$width-menu3-line: 286.4px;
-$height-menu4-line: 27.2px;
-$width-menu4-line: 331.2px;
+$height-menu1-line: 3.25rem;
+$width-menu1-line: 22rem;
+$height-menu2-line: 3.25rem;
+$width-menu2-line: 17.875rem;
+$height-menu3-line: 3.25rem;
+$width-menu3-line: 25rem;
+$height-menu4-line: 3.25rem;
+$width-menu4-line: 25rem;
+
+/*dimension title-box*/
+$min-width-titlebox1:16rem;
+$min-width-titlebox2:16rem;
+$min-width-titlebox3:16rem;
+$min-width-titlebox4:20rem;
 
 /*police*/
 $font-menu-title: arial, verdana, lucida;
-$font-menu1-title:'Ma Shan Zheng', cursive;
+$font-menu1-title:'Devonshire', cursive;
 $font-menu1-menu:'Caveat', cursive;
 $font-menu2-title:'Lobster Two';
 $font-menu2-menu:'Vidaloka';
 $font-menu3-title:'Parisienne';
 $font-menu3-menu:'Kalam', cursive;
-$font-menu4-title:'Caveat', cursive;
+$font-menu4-title:'Kaushan Script', cursive;
 $font-menu4-menu: 'Kalam', cursive;
 $font-mlegal:'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+
 
 /*marge*/
 $margin-menu:1rem 8rem 5rem 8rem;
 $padding-menu:5rem 5rem 5rem 5rem;
+$padding-menu2:4rem 5rem 5rem 5rem;
+$padding-menu3:4rem 1rem 5rem 1rem;
+$padding-menu4:2rem 5rem 5rem 5rem;
+
+$margin-titlebox1:1.5rem;
+$margin-titlebox2:2.5rem;
+$margin-titlebox3:2.2rem;
+$margin-titlebox4:2.2rem;

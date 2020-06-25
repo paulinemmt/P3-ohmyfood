@@ -4,6 +4,7 @@
 /*couleur de police*/
 /*taille de police*/
 /*dimension image*/
+/*dimension title-box*/
 /*police*/
 /*marge*/
 body {
@@ -30,15 +31,14 @@ header h1 a {
 }
 
 .link_menu1 .menu1_icone {
-  font-size: 2.6rem;
+  font-size: 4rem;
   background: -webkit-linear-gradient(right, #f04a5e, #f78f6a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 4rem;
 }
 
 .link_menu1 .menu1_title {
-  font-family: "Ma Shan Zheng", cursive;
+  font-family: "Devonshire", cursive;
   font-size: 2.6rem;
 }
 
@@ -79,10 +79,10 @@ header h1 a {
 }
 
 .link_menu4 .menu4_title {
-  font-family: "Caveat", cursive;
+  font-family: "Kaushan Script", cursive;
   font-size: 2.6rem;
   font-size: 2.6rem;
-  background: -webkit-linear-gradient(right, #72bf56, #bfff7e);
+  background: -webkit-linear-gradient(right, #beff7f, #3d923a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -90,7 +90,7 @@ header h1 a {
 .link_menu4 .menu4_content {
   font-family: "Kalam", cursive;
   font-size: 3.1rem;
-  color: #72bf56;
+  color: #3d923a;
 }
 
 .main_soon {
@@ -106,24 +106,47 @@ header h1 a {
   color: #353535;
 }
 
+.menu_pages .section_menu1 .menu1_icone {
+  font-size: 6rem;
+  background: -webkit-linear-gradient(right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .menu_pages .section_menu1 .menu1_title {
-  font-family: "Ma Shan Zheng", cursive;
-  font-size: 5rem;
+  font-family: "Devonshire", cursive;
+  font-size: 4rem;
 }
 
 .menu_pages .section_menu1 .menu1_content {
   font-family: "Caveat", cursive;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 .menu_pages .section_menu1 .menu1_content .dish_title {
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+.menu_pages .section_menu1 .menu1_content .price {
+  font-weight: bold;
+}
+
+.menu_pages .section_menu1 .article_endnote .end_note {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(right, #f04a5e, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu_pages .section_menu1 .article_endnote .endnote_title {
+  font-family: "Devonshire", cursive;
+  font-size: 3rem;
 }
 
 .menu_pages .section_menu2 .menu2_title {
   font-family: "Lobster Two";
-  font-size: 5rem;
-  font-size: 2.6rem;
+  font-size: 4rem;
+  font-size: 4rem;
   background: -webkit-linear-gradient(right, #6e4ccc, #c77412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -153,7 +176,7 @@ header h1 a {
 .menu_pages .section_menu3 .menu3_title {
   font-family: "Parisienne";
   font-size: 5rem;
-  font-size: 2.6rem;
+  font-size: 5rem;
   background: -webkit-linear-gradient(right, #229df9, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -161,29 +184,45 @@ header h1 a {
 
 .menu_pages .section_menu3 .menu3_content {
   font-family: "Kalam", cursive;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
 }
 
 .menu_pages .section_menu3 .menu3_content .dish_title {
-  font-size: 2rem;
+  font-size: 2.3rem;
+}
+
+.menu_pages .section_menu3 .menu3_content .dish {
+  padding-top: 1rem;
+}
+
+.menu_pages .section_menu3 .menu3_content .price {
+  font-size: 2.2rem;
 }
 
 .menu_pages .section_menu4 .menu4_title {
-  font-family: "Caveat", cursive;
-  font-size: 5rem;
-  font-size: 2.6rem;
-  background: -webkit-linear-gradient(right, #72bf56, #bfff7e);
+  font-family: "Kaushan Script", cursive;
+  font-size: 6rem;
+  font-size: 6rem;
+  background: -webkit-linear-gradient(right, #beff7f, #3d923a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .menu_pages .section_menu4 .menu4_content {
   font-family: "Kalam", cursive;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .menu_pages .section_menu4 .menu4_content .dish_title {
   font-size: 2rem;
+}
+
+.menu_pages .section_menu4 .menu4_content .dish {
+  padding-top: 1rem;
+}
+
+.menu_pages .section_menu4 .menu4_content .price {
+  font-size: 1.7rem;
 }
 
 /*footer*/
@@ -236,7 +275,7 @@ header {
 header h1 {
   text-align: center;
   margin: 0px;
-  padding: 1.2rem;
+  padding: 1.5rem;
 }
 
 @-webkit-keyframes wiggle {
@@ -345,7 +384,7 @@ footer {
   position: sticky;
   bottom: 0px;
   margin-bottom: 0px;
-  padding: 1.1rem;
+  padding: 1.5rem;
   border-top: 1px solid #a1c181;
 }
 
@@ -434,7 +473,7 @@ footer a:hover {
 .main_menu .link_menu3 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
-  background-color: #f9f9f9;
+  background-color: #edefef;
 }
 
 .main_menu .link_menu3 .section_menu3 {
@@ -531,8 +570,8 @@ footer a:hover {
 }
 
 .menu_pages .title {
-  margin-top: 60px;
-  margin-bottom: 0px;
+  margin-top: 3.75rem;
+  margin-bottom: 0rem;
 }
 
 .menu_pages .section_dish {
@@ -548,7 +587,7 @@ footer a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 
 .menu_pages .section_dish .dish_title {
@@ -592,28 +631,28 @@ footer a:hover {
 
 .menu_pages .section_dish .dish_title .line_left {
   float: left;
-  margin: 35px 0px;
+  margin: 2.1875rem 0rem 0.625rem 0rem;
 }
 
 .menu_pages .section_dish .dish_title .line_right {
   float: right;
-  margin: 35px 0px;
+  margin: 2.1875rem 0rem 0.625rem 0rem;
 }
 
 .menu_pages .section_dish .dish li {
   text-align: left;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .menu_pages .section_dish .price li {
   text-align: right;
-  padding: 20px;
+  padding: 1.25rem;
 }
 
 .menu_pages ul {
   list-style-type: none;
-  margin: 0px 40px 0px 40px;
-  padding: 0px;
+  margin: 0rem 2.5rem;
+  padding: 0rem;
 }
 
 .menu_pages .section_menu1 {
@@ -622,16 +661,46 @@ footer a:hover {
   background-color: #fcdfdb;
   margin: 1rem 8rem 5rem 8rem;
   padding: 5rem 5rem 5rem 5rem;
+  padding-bottom: 2rem;
 }
 
 .menu_pages .section_menu1 .menu1_title {
-  margin-bottom: 80px;
+  margin-top: 0rem;
+  margin-bottom: 2.375rem;
 }
 
 .menu_pages .section_menu1 .menu1_line {
-  height: 16px;
-  width: 294px;
+  height: 3.25rem;
+  width: 22rem;
   display: inline-block;
+}
+
+.menu_pages .section_menu1 .title_box {
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+  min-width: 16rem;
+}
+
+.menu_pages .section_menu1 .article_endnote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.menu_pages .section_menu1 .article_endnote .end_note {
+  padding-right: 1rem;
+}
+
+.menu_pages .section_menu1 .article_endnote .endnote_title {
+  margin-top: 0rem;
 }
 
 .menu_pages .section_menu2 {
@@ -639,35 +708,55 @@ footer a:hover {
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fff5fe;
   margin: 1rem 8rem 5rem 8rem;
-  padding: 5rem 5rem 5rem 5rem;
+  padding: 4rem 5rem 5rem 5rem;
 }
 
 .menu_pages .section_menu2 .menu2_title {
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .menu_pages .section_menu2 .menu2_line {
-  height: 52.8px;
-  width: 286.4px;
+  height: 3.25rem;
+  width: 17.875rem;
   display: inline-block;
+}
+
+.menu_pages .section_menu2 .title_box {
+  margin-top: 2.5rem;
+  min-width: 16rem;
+  margin-bottom: 0rem;
 }
 
 .menu_pages .section_menu3 {
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
-  background-color: #f9f9f9;
+  background-color: #edefef;
   margin: 1rem 8rem 5rem 8rem;
-  padding: 5rem 5rem 5rem 5rem;
+  padding: 4rem 1rem 5rem 1rem;
 }
 
 .menu_pages .section_menu3 .menu3_title {
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .menu_pages .section_menu3 .menu3_line {
-  height: 52.8px;
-  width: 286.4px;
+  height: 3.25rem;
+  width: 25rem;
   display: inline-block;
+}
+
+.menu_pages .section_menu3 .section_dish .dish li {
+  padding-left: 4rem;
+}
+
+.menu_pages .section_menu3 .section_dish .price li {
+  padding-right: 4rem;
+}
+
+.menu_pages .section_menu3 .title_box {
+  margin-top: 2.2rem;
+  min-width: 16rem;
+  margin-bottom: 1rem;
 }
 
 .menu_pages .section_menu4 {
@@ -675,17 +764,23 @@ footer a:hover {
           box-shadow: 1px 1px 8px #d6d6d6;
   background-color: #fdfffd;
   margin: 1rem 8rem 5rem 8rem;
-  padding: 5rem 5rem 5rem 5rem;
+  padding: 2rem 5rem 5rem 5rem;
 }
 
 .menu_pages .section_menu4 .menu4_title {
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 }
 
 .menu_pages .section_menu4 .menu4_line {
-  height: 27.2px;
-  width: 331.2px;
+  height: 3.25rem;
+  width: 25rem;
   display: inline-block;
+}
+
+.menu_pages .section_menu4 .title_box {
+  margin-top: 2.2rem;
+  min-width: 20rem;
+  margin-bottom: 1rem;
 }
 
 .mlegal_content {
@@ -699,9 +794,10 @@ footer a:hover {
 
 .mlegal_content .mlegal_identity {
   margin: 4rem auto;
-  padding: 1rem;
+  padding: 0rem 1rem 1rem 1rem;
   width: 50rem;
   border: 1px solid #569c87;
+  border-radius: 0.5rem;
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
           box-shadow: 1px 1px 8px #d6d6d6;
 }

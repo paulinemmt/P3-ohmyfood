@@ -6,8 +6,8 @@
     font-family:$font-family;
     font-size:$size;
 }
-@mixin color-gradient ($color-start, $color-end){
-    font-size:$font-size-menutitle;
+@mixin color-gradient ($font-size, $color-start, $color-end){
+    font-size:$font-size;
     background: -webkit-linear-gradient(right, $color-start,$color-end);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
