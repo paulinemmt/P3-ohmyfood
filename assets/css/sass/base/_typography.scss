@@ -59,19 +59,13 @@ header{
         color:$secondary-color;
         font-size:2rem;
 }
-footer{
-    a{
-        text-decoration:none;
-        font-family:'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
-        color:$secondary-color;
-        font-size:1.3rem;
-    }
-}
+
 
 /*pages annexes*/
 .menu_pages{
     .title{
         @include font-menu ($font-menu-title, $font-size-title); 
+        color:$font-color-title;
     }
     .section_menu1{
         .menu1_title{
@@ -95,13 +89,13 @@ footer{
                 font-size:$font-size-dishtitle;
             }
             .dish_starter{
-                color:$font-color-menu2;
+                color:$font-colortrans-menu2;
             }
             .dish_main{
                 color:$font-color-menu2-main;
             }
             .dish_dessert{
-                color:$font-colortrans-menu2;
+                color:$font-color-menu2;
             }
         }
     }
@@ -130,6 +124,18 @@ footer{
         }
     } 
 }
+
+/*footer*/
+footer{
+    a{
+        text-decoration:none;
+        font-family:'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+        color:$secondary-color;
+        font-size:1.3rem;
+        font-weight:bold;
+    }
+}
+
 /*mentions légales*/
 .mlegal_content{
     @include font-mlegal($font-color-mlegal-text, $font-size-mlegal-text);

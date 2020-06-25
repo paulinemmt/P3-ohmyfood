@@ -52,13 +52,13 @@ header h1 a {
   font-family: "Lobster Two";
   font-size: 2.6rem;
   font-size: 2.6rem;
-  background: -webkit-linear-gradient(right, #c77412, #905bfd);
+  background: -webkit-linear-gradient(right, #6e4ccc, #c77412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .link_menu2 .menu2_content {
-  color: #c77412;
+  color: #6e4ccc;
   font-family: "Vidaloka";
   font-size: 3.1rem;
 }
@@ -67,7 +67,7 @@ header h1 a {
   font-family: "Parisienne";
   font-size: 2.6rem;
   font-size: 2.6rem;
-  background: -webkit-linear-gradient(right, #0887fb, #0431df);
+  background: -webkit-linear-gradient(right, #229df9, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -75,7 +75,7 @@ header h1 a {
 .link_menu3 .menu3_content {
   font-family: "Kalam", cursive;
   font-size: 3.1rem;
-  color: #0887fb;
+  color: #229df9;
 }
 
 .link_menu4 .menu4_title {
@@ -99,17 +99,11 @@ header h1 a {
   font-size: 2rem;
 }
 
-footer a {
-  text-decoration: none;
-  font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
-  color: #fcca46;
-  font-size: 1.3rem;
-}
-
 /*pages annexes*/
 .menu_pages .title {
   font-family: arial, verdana, lucida;
   font-size: 2.4rem;
+  color: #353535;
 }
 
 .menu_pages .section_menu1 .menu1_title {
@@ -130,7 +124,7 @@ footer a {
   font-family: "Lobster Two";
   font-size: 5rem;
   font-size: 2.6rem;
-  background: -webkit-linear-gradient(right, #c77412, #905bfd);
+  background: -webkit-linear-gradient(right, #6e4ccc, #c77412);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -153,14 +147,14 @@ footer a {
 }
 
 .menu_pages .section_menu2 .menu2_content .dish_dessert {
-  color: #905bfd;
+  color: #6e4ccc;
 }
 
 .menu_pages .section_menu3 .menu3_title {
   font-family: "Parisienne";
   font-size: 5rem;
   font-size: 2.6rem;
-  background: -webkit-linear-gradient(right, #0887fb, #0431df);
+  background: -webkit-linear-gradient(right, #229df9, #0431df);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -190,6 +184,15 @@ footer a {
 
 .menu_pages .section_menu4 .menu4_content .dish_title {
   font-size: 2rem;
+}
+
+/*footer*/
+footer a {
+  text-decoration: none;
+  font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
+  color: #fcca46;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 /*mentions légales*/
@@ -227,6 +230,7 @@ footer a {
 
 header {
   background-color: #569c87;
+  border-bottom: 1px solid #a1c181;
 }
 
 header h1 {
@@ -237,95 +241,95 @@ header h1 {
 
 @-webkit-keyframes wiggle {
   0% {
-    -webkit-transform: skewX(9deg);
-            transform: skewX(9deg);
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
   }
   10% {
-    -webkit-transform: skewX(-8deg);
-            transform: skewX(-8deg);
+    -webkit-transform: skewX(-13deg);
+            transform: skewX(-13deg);
   }
   20% {
-    -webkit-transform: skewX(7deg);
-            transform: skewX(7deg);
+    -webkit-transform: skewX(17deg);
+            transform: skewX(17deg);
   }
   30% {
-    -webkit-transform: skewX(-6deg);
-            transform: skewX(-6deg);
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
   }
   40% {
-    -webkit-transform: skewX(5deg);
-            transform: skewX(5deg);
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
   }
   50% {
-    -webkit-transform: skewX(-4deg);
-            transform: skewX(-4deg);
+    -webkit-transform: skewX(-14deg);
+            transform: skewX(-14deg);
   }
   60% {
-    -webkit-transform: skewX(3deg);
-            transform: skewX(3deg);
+    -webkit-transform: skewX(13deg);
+            transform: skewX(13deg);
   }
   70% {
-    -webkit-transform: skewX(-2deg);
-            transform: skewX(-2deg);
+    -webkit-transform: skewX(-12deg);
+            transform: skewX(-12deg);
   }
   80% {
-    -webkit-transform: skewX(1deg);
-            transform: skewX(1deg);
+    -webkit-transform: skewX(11deg);
+            transform: skewX(11deg);
   }
   90% {
-    -webkit-transform: skewX(0deg);
-            transform: skewX(0deg);
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
   }
   100% {
-    -webkit-transform: skewX(0deg);
-            transform: skewX(0deg);
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
   }
 }
 
 @keyframes wiggle {
   0% {
-    -webkit-transform: skewX(9deg);
-            transform: skewX(9deg);
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
   }
   10% {
-    -webkit-transform: skewX(-8deg);
-            transform: skewX(-8deg);
+    -webkit-transform: skewX(-13deg);
+            transform: skewX(-13deg);
   }
   20% {
-    -webkit-transform: skewX(7deg);
-            transform: skewX(7deg);
+    -webkit-transform: skewX(17deg);
+            transform: skewX(17deg);
   }
   30% {
-    -webkit-transform: skewX(-6deg);
-            transform: skewX(-6deg);
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
   }
   40% {
-    -webkit-transform: skewX(5deg);
-            transform: skewX(5deg);
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
   }
   50% {
-    -webkit-transform: skewX(-4deg);
-            transform: skewX(-4deg);
+    -webkit-transform: skewX(-14deg);
+            transform: skewX(-14deg);
   }
   60% {
-    -webkit-transform: skewX(3deg);
-            transform: skewX(3deg);
+    -webkit-transform: skewX(13deg);
+            transform: skewX(13deg);
   }
   70% {
-    -webkit-transform: skewX(-2deg);
-            transform: skewX(-2deg);
+    -webkit-transform: skewX(-12deg);
+            transform: skewX(-12deg);
   }
   80% {
-    -webkit-transform: skewX(1deg);
-            transform: skewX(1deg);
+    -webkit-transform: skewX(11deg);
+            transform: skewX(11deg);
   }
   90% {
-    -webkit-transform: skewX(0deg);
-            transform: skewX(0deg);
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
   }
   100% {
-    -webkit-transform: skewX(0deg);
-            transform: skewX(0deg);
+    -webkit-transform: skewX(10deg);
+            transform: skewX(10deg);
   }
 }
 
@@ -342,6 +346,7 @@ footer {
   bottom: 0px;
   margin-bottom: 0px;
   padding: 1.1rem;
+  border-top: 1px solid #a1c181;
 }
 
 footer a {
@@ -349,8 +354,8 @@ footer a {
 }
 
 footer a:hover {
-  -webkit-animation: wiggle 1000ms infinite;
-          animation: wiggle 1000ms infinite;
+  -webkit-animation: wiggle 1000ms infinite alternate both;
+          animation: wiggle 1000ms infinite alternate both;
 }
 
 .main_menu {
@@ -476,7 +481,7 @@ footer a:hover {
 
 .main_soon p {
   background-color: #569c87;
-  padding: 0.7rem;
+  padding: 0.7rem 2.3rem;
   border-radius: 10px;
   margin-bottom: 64px;
 }
@@ -571,7 +576,7 @@ footer a:hover {
   left: 0;
   right: 0;
   height: 0.4em;
-  background: #c77412;
+  background: #6e4ccc;
   z-index: -1;
   opacity: 0.8;
   -webkit-transition: -webkit-transform 500ms;
@@ -694,6 +699,7 @@ footer a:hover {
 
 .mlegal_content .mlegal_identity {
   margin: 4rem auto;
+  padding: 1rem;
   width: 50rem;
   border: 1px solid #569c87;
   -webkit-box-shadow: 1px 1px 8px #d6d6d6;
