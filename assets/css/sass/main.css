@@ -7,6 +7,25 @@
 /*dimension title-box*/
 /*police*/
 /*marge*/
+@-webkit-keyframes underline {
+  from {
+    left: 0px;
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes underline {
+  from {
+    left: 0px;
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -14,11 +33,11 @@ body {
   font-size: 1rem;
 }
 
-/*accueil*/
 a {
   text-decoration: none;
 }
 
+/*header*/
 header h1 a {
   color: #fcca46;
   font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular',Verdana, sans-serif;
@@ -26,6 +45,7 @@ header h1 a {
   font-size: 2.8rem;
 }
 
+/*home*/
 .link_menu1 {
   color: #3c1218;
 }
@@ -99,7 +119,7 @@ header h1 a {
   font-size: 2rem;
 }
 
-/*pages annexes*/
+/*annex pages*/
 .menu_pages .title {
   font-family: arial, verdana, lucida;
   font-size: 2.4rem;
@@ -125,6 +145,23 @@ header h1 a {
 
 .menu_pages .section_menu1 .menu1_content .dish_title {
   font-size: 3rem;
+}
+
+.menu_pages .section_menu1 .menu1_content .dish_title .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #3c1218;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu1 .menu1_content .dish_title .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
 }
 
 .menu_pages .section_menu1 .menu1_content .price {
@@ -165,12 +202,63 @@ header h1 a {
   color: #c77412;
 }
 
+.menu_pages .section_menu2 .menu2_content .dish_starter .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #c77412;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu2 .menu2_content .dish_starter .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
+}
+
 .menu_pages .section_menu2 .menu2_content .dish_main {
   color: #a56799;
 }
 
+.menu_pages .section_menu2 .menu2_content .dish_main .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #a56799;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu2 .menu2_content .dish_main .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
+}
+
 .menu_pages .section_menu2 .menu2_content .dish_dessert {
   color: #6e4ccc;
+}
+
+.menu_pages .section_menu2 .menu2_content .dish_dessert .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #6e4ccc;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu2 .menu2_content .dish_dessert .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
 }
 
 .menu_pages .section_menu3 .menu3_title {
@@ -189,6 +277,57 @@ header h1 a {
 
 .menu_pages .section_menu3 .menu3_content .dish_title {
   font-size: 2.3rem;
+}
+
+.menu_pages .section_menu3 .menu3_content .dish_starter .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #0431df;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu3 .menu3_content .dish_starter .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
+}
+
+.menu_pages .section_menu3 .menu3_content .dish_main .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #0670f3;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu3 .menu3_content .dish_main .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
+}
+
+.menu_pages .section_menu3 .menu3_content .dish_dessert .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #229df9;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu3 .menu3_content .dish_dessert .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
 }
 
 .menu_pages .section_menu3 .menu3_content .dish {
@@ -215,6 +354,23 @@ header h1 a {
 
 .menu_pages .section_menu4 .menu4_content .dish_title {
   font-size: 2rem;
+}
+
+.menu_pages .section_menu4 .menu4_content .dish_title .title_box::after {
+  content: "";
+  width: 0%;
+  height: 0.3rem;
+  background-color: #beff7f;
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  opacity: 0.5;
+  border-radius: 4rem;
+}
+
+.menu_pages .section_menu4 .menu4_content .dish_title .title_box:hover::after {
+  -webkit-animation: underline 700ms forwards;
+          animation: underline 700ms forwards;
 }
 
 .menu_pages .section_menu4 .menu4_content .dish {
@@ -397,6 +553,202 @@ footer a:hover {
           animation: wiggle 1000ms infinite alternate both;
 }
 
+.menu_pages {
+  text-align: center;
+}
+
+.menu_pages .title {
+  margin-top: 3.75rem;
+  margin-bottom: 0rem;
+}
+
+.menu_pages .section_dish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3.125rem;
+}
+
+.menu_pages .section_dish .dish_title {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu_pages .section_dish .dish_title .title_box {
+  position: relative;
+}
+
+.menu_pages .section_dish .dish_title .line_left {
+  float: left;
+  margin: 2.1875rem 0rem 0.625rem 0rem;
+}
+
+.menu_pages .section_dish .dish_title .line_right {
+  float: right;
+  margin: 2.1875rem 0rem 0.625rem 0rem;
+}
+
+.menu_pages .section_dish .dish li {
+  text-align: left;
+  padding: 1.25rem;
+}
+
+.menu_pages .section_dish .price li {
+  text-align: right;
+  padding: 1.25rem;
+}
+
+.menu_pages ul {
+  list-style-type: none;
+  margin: 0rem 2.5rem;
+  padding: 0rem;
+}
+
+.menu_pages .section_menu1 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #fcdfdb;
+  margin: 1rem 8rem 5rem 8rem;
+  padding: 5rem 5rem 5rem 5rem;
+  padding-bottom: 2rem;
+}
+
+.menu_pages .section_menu1 .menu1_title {
+  margin-top: 0rem;
+  margin-bottom: 2.375rem;
+}
+
+.menu_pages .section_menu1 .menu1_line {
+  height: 3.25rem;
+  width: 22rem;
+  display: inline-block;
+}
+
+.menu_pages .section_menu1 .title_box {
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+  min-width: 16rem;
+}
+
+.menu_pages .section_menu1 .article_endnote {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3rem;
+}
+
+.menu_pages .section_menu1 .article_endnote .end_note {
+  padding-right: 1rem;
+}
+
+.menu_pages .section_menu1 .article_endnote .endnote_title {
+  margin-top: 0rem;
+}
+
+.menu_pages .section_menu2 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #fff5fe;
+  margin: 1rem 8rem 5rem 8rem;
+  padding: 4rem 5rem 5rem 5rem;
+}
+
+.menu_pages .section_menu2 .menu2_title {
+  margin-bottom: 5rem;
+}
+
+.menu_pages .section_menu2 .menu2_line {
+  height: 3.25rem;
+  width: 17.875rem;
+  display: inline-block;
+}
+
+.menu_pages .section_menu2 .title_box {
+  margin-top: 2.5rem;
+  min-width: 16rem;
+  margin-bottom: 0rem;
+}
+
+.menu_pages .section_menu3 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #edefef;
+  margin: 1rem 8rem 5rem 8rem;
+  padding: 4rem 1rem 5rem 1rem;
+}
+
+.menu_pages .section_menu3 .menu3_title {
+  margin-bottom: 5rem;
+}
+
+.menu_pages .section_menu3 .menu3_line {
+  height: 3.25rem;
+  width: 25rem;
+  display: inline-block;
+}
+
+.menu_pages .section_menu3 .section_dish .dish li {
+  padding-left: 4rem;
+}
+
+.menu_pages .section_menu3 .section_dish .price li {
+  padding-right: 4rem;
+}
+
+.menu_pages .section_menu3 .title_box {
+  margin-top: 2.2rem;
+  min-width: 16rem;
+  margin-bottom: 1rem;
+}
+
+.menu_pages .section_menu4 {
+  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
+          box-shadow: 1px 1px 8px #d6d6d6;
+  background-color: #fdfffd;
+  margin: 1rem 8rem 5rem 8rem;
+  padding: 2rem 5rem 5rem 5rem;
+}
+
+.menu_pages .section_menu4 .menu4_title {
+  margin-bottom: 5rem;
+}
+
+.menu_pages .section_menu4 .menu4_line {
+  height: 3.25rem;
+  width: 25rem;
+  display: inline-block;
+}
+
+.menu_pages .section_menu4 .title_box {
+  margin-top: 2.2rem;
+  min-width: 20rem;
+  margin-bottom: 1rem;
+}
+
 .main_menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -563,224 +915,6 @@ footer a:hover {
     -webkit-transform: translateY(-6px);
             transform: translateY(-6px);
   }
-}
-
-.menu_pages {
-  text-align: center;
-}
-
-.menu_pages .title {
-  margin-top: 3.75rem;
-  margin-bottom: 0rem;
-}
-
-.menu_pages .section_dish {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 3.125rem;
-}
-
-.menu_pages .section_dish .dish_title {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  position: relative;
-}
-
-.menu_pages .section_dish .dish_title .title_box::after {
-  content: "";
-  -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
-  -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 0.4em;
-  background: #6e4ccc;
-  z-index: -1;
-  opacity: 0.8;
-  -webkit-transition: -webkit-transform 500ms;
-  transition: -webkit-transform 500ms;
-  transition: transform 500ms;
-  transition: transform 500ms, -webkit-transform 500ms;
-}
-
-.menu_pages .section_dish .dish_title .title_box:hover::after {
-  -webkit-transform: scaleX(1);
-          transform: scaleX(1);
-}
-
-.menu_pages .section_dish .dish_title .line_left {
-  float: left;
-  margin: 2.1875rem 0rem 0.625rem 0rem;
-}
-
-.menu_pages .section_dish .dish_title .line_right {
-  float: right;
-  margin: 2.1875rem 0rem 0.625rem 0rem;
-}
-
-.menu_pages .section_dish .dish li {
-  text-align: left;
-  padding: 1.25rem;
-}
-
-.menu_pages .section_dish .price li {
-  text-align: right;
-  padding: 1.25rem;
-}
-
-.menu_pages ul {
-  list-style-type: none;
-  margin: 0rem 2.5rem;
-  padding: 0rem;
-}
-
-.menu_pages .section_menu1 {
-  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
-          box-shadow: 1px 1px 8px #d6d6d6;
-  background-color: #fcdfdb;
-  margin: 1rem 8rem 5rem 8rem;
-  padding: 5rem 5rem 5rem 5rem;
-  padding-bottom: 2rem;
-}
-
-.menu_pages .section_menu1 .menu1_title {
-  margin-top: 0rem;
-  margin-bottom: 2.375rem;
-}
-
-.menu_pages .section_menu1 .menu1_line {
-  height: 3.25rem;
-  width: 22rem;
-  display: inline-block;
-}
-
-.menu_pages .section_menu1 .title_box {
-  margin-top: 1.5rem;
-  margin-bottom: 0rem;
-  min-width: 16rem;
-}
-
-.menu_pages .section_menu1 .article_endnote {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 3rem;
-}
-
-.menu_pages .section_menu1 .article_endnote .end_note {
-  padding-right: 1rem;
-}
-
-.menu_pages .section_menu1 .article_endnote .endnote_title {
-  margin-top: 0rem;
-}
-
-.menu_pages .section_menu2 {
-  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
-          box-shadow: 1px 1px 8px #d6d6d6;
-  background-color: #fff5fe;
-  margin: 1rem 8rem 5rem 8rem;
-  padding: 4rem 5rem 5rem 5rem;
-}
-
-.menu_pages .section_menu2 .menu2_title {
-  margin-bottom: 5rem;
-}
-
-.menu_pages .section_menu2 .menu2_line {
-  height: 3.25rem;
-  width: 17.875rem;
-  display: inline-block;
-}
-
-.menu_pages .section_menu2 .title_box {
-  margin-top: 2.5rem;
-  min-width: 16rem;
-  margin-bottom: 0rem;
-}
-
-.menu_pages .section_menu3 {
-  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
-          box-shadow: 1px 1px 8px #d6d6d6;
-  background-color: #edefef;
-  margin: 1rem 8rem 5rem 8rem;
-  padding: 4rem 1rem 5rem 1rem;
-}
-
-.menu_pages .section_menu3 .menu3_title {
-  margin-bottom: 5rem;
-}
-
-.menu_pages .section_menu3 .menu3_line {
-  height: 3.25rem;
-  width: 25rem;
-  display: inline-block;
-}
-
-.menu_pages .section_menu3 .section_dish .dish li {
-  padding-left: 4rem;
-}
-
-.menu_pages .section_menu3 .section_dish .price li {
-  padding-right: 4rem;
-}
-
-.menu_pages .section_menu3 .title_box {
-  margin-top: 2.2rem;
-  min-width: 16rem;
-  margin-bottom: 1rem;
-}
-
-.menu_pages .section_menu4 {
-  -webkit-box-shadow: 1px 1px 8px #d6d6d6;
-          box-shadow: 1px 1px 8px #d6d6d6;
-  background-color: #fdfffd;
-  margin: 1rem 8rem 5rem 8rem;
-  padding: 2rem 5rem 5rem 5rem;
-}
-
-.menu_pages .section_menu4 .menu4_title {
-  margin-bottom: 5rem;
-}
-
-.menu_pages .section_menu4 .menu4_line {
-  height: 3.25rem;
-  width: 25rem;
-  display: inline-block;
-}
-
-.menu_pages .section_menu4 .title_box {
-  margin-top: 2.2rem;
-  min-width: 20rem;
-  margin-bottom: 1rem;
 }
 
 .mlegal_content {

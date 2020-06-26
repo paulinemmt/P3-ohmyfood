@@ -1,7 +1,9 @@
-/*accueil*/
+
 a{
     text-decoration:none;
 }
+
+/*header*/
 header{
     h1 a{
         color:$secondary-color;
@@ -10,6 +12,8 @@ header{
         font-size:$font-size-logo;
     }
 }
+
+/*home*/
 .link_menu1{
     color:$font-color-menu1;
     .menu1_icone{
@@ -60,7 +64,7 @@ header{
 }
 
 
-/*pages annexes*/
+/*annex pages*/
 .menu_pages{
     .title{
         @include font-menu ($font-menu-title, $font-size-title); 
@@ -77,6 +81,9 @@ header{
             @include font-menu ($font-menu1-menu, $font-size-menucontent1);
             .dish_title{
                 font-size:$font-size-dishtitle1;
+                .title_box{
+                    @include underline ($font-color-menu1);
+                }
             }
             .price{
                 font-weight:bold;
@@ -103,12 +110,21 @@ header{
             }
             .dish_starter{
                 color:$font-colortrans-menu2;
+                .title_box{
+                @include underline($font-colortrans-menu2);
+                }
             }
             .dish_main{
                 color:$font-color-menu2-main;
+                .title_box{
+                    @include underline($font-color-menu2-main);
+                    }
             }
             .dish_dessert{
                 color:$font-color-menu2;
+                .title_box{
+                    @include underline($font-color-menu2);
+                    }
             }
         }
     }
@@ -122,6 +138,22 @@ header{
                 .dish_title{
                     font-size:$font-size-dishtitle3;
             }
+            .dish_starter{
+                .title_box{
+                @include underline($font-colortrans-menu3);
+                }
+            }
+            .dish_main{
+                .title_box{
+                    @include underline($font-color-menu3-main);
+                    }
+            }
+            .dish_dessert{
+                .title_box{
+                    @include underline($font-color-menu3);
+                    }
+            }
+
             .dish{
                 padding-top:1rem;
             }
@@ -139,6 +171,9 @@ header{
             @include font-menu ($font-menu4-menu, $font-size-menucontent4);
                 .dish_title{
                     font-size:$font-size-dishtitle4;
+                    .title_box{
+                        @include underline ($font-colortrans-menu4);
+                    }
                 }
                 .dish{
                     padding-top:1rem;

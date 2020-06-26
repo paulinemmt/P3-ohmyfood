@@ -51,3 +51,29 @@
     color:$color;
     font-size:$size;
 }
+
+ @keyframes underline {
+    from {left: 0px;
+    width:0%}
+    to {
+    width:100%;}
+  }
+  
+  @mixin underline ($color){
+    &::after{
+        content:"";
+        width:0%;
+        height:0.3rem;
+        background-color:$color;
+        position:absolute;
+        left:0rem;
+        bottom:0rem;
+        opacity:0.5;
+        border-radius:4rem;
+    }
+    &:hover {
+        &::after{
+           animation:underline 700ms forwards;
+        }   
+    }    
+  }
