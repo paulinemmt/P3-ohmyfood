@@ -581,16 +581,19 @@ footer a:hover {
 
 .menu_pages .section_dish .dish_title .title_box {
   position: relative;
+  width: 30%;
 }
 
 .menu_pages .section_dish .dish_title .line_left {
   float: left;
   margin: 2.1875rem 0rem 0.625rem 0rem;
+  width: 30%;
 }
 
 .menu_pages .section_dish .dish_title .line_right {
   float: right;
   margin: 2.1875rem 0rem 0.625rem 0rem;
+  width: 30%;
 }
 
 .menu_pages .section_dish .dish_list {
@@ -984,10 +987,12 @@ footer a:hover {
     font-size: 1.3rem;
   }
   .menu_pages .section_dish .dish_title .line_left {
-    display: none;
+    float: left;
+    margin: 0rem 0rem 0.625rem 0rem;
   }
   .menu_pages .section_dish .dish_title .line_right {
-    display: none;
+    float: right;
+    margin: 0rem 0rem 0.625rem 0rem;
   }
   .menu_pages .section_dish .dish_list {
     display: -webkit-box;
