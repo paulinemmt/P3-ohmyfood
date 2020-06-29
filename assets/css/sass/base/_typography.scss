@@ -29,8 +29,8 @@ header{
 }
 .link_menu2{ 
     .menu2_title{
-        @include font-menu ($font-menu2-title, $font-size-menutitle);
-        @include color-gradient ($font-size-menutitle, $font-color-menu2, $font-colortrans-menu2);
+        @include font-menu ($font-menu2-title, $font-size-menutitle2);
+        @include color-gradient ($font-size-menutitle2, $font-color-menu2, $font-colortrans-menu2);
     } 
     .menu2_content{
     color:$font-color-menu2;
