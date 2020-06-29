@@ -85,9 +85,11 @@ header{
                     @include underline ($font-color-menu1);
                 }
             }
+            .dish_list{
             .price{
                 font-weight:bold;
-            }           
+            } 
+        }          
         }
         .article_endnote{
             .end_note{
