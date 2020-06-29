@@ -209,6 +209,9 @@ footer{
         .mlegal_subtitle{
             @include font-mlegal($font-color-mlegal-subtitle, $font-size-mlegal-subtitle);
         }
+        a{
+            color: $font-color-mlegal-text;
+        }
     }
     .mlegal_information{
         .note_number{

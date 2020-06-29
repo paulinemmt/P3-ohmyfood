@@ -15,9 +15,10 @@
 
 @mixin menu-zoom-anim {
     transform:scale(1);
-    transition: transform 400ms; 
+    transition: transform 400ms, opacity 400ms; 
         &:hover {
             transform: scale(1.15);
+            opacity: 0.8;
         }
 }
 

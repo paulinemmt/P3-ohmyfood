@@ -413,6 +413,10 @@ footer a {
   font-size: 2rem;
 }
 
+.mlegal_content .mlegal_identity a {
+  color: #353535;
+}
+
 .mlegal_content .mlegal_information .note_number {
   font-style: italic;
   font-size: 0.8rem;
@@ -791,15 +795,16 @@ footer a:hover {
 .main_menu .link_menu1 .section_menu1 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform 400ms;
-  transition: -webkit-transform 400ms;
-  transition: transform 400ms;
-  transition: transform 400ms, -webkit-transform 400ms;
+  -webkit-transition: opacity 400ms, -webkit-transform 400ms;
+  transition: opacity 400ms, -webkit-transform 400ms;
+  transition: transform 400ms, opacity 400ms;
+  transition: transform 400ms, opacity 400ms, -webkit-transform 400ms;
 }
 
 .main_menu .link_menu1 .section_menu1:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+  opacity: 0.8;
 }
 
 .main_menu .link_menu1 .section_menu1 .menu1_menutitle {
@@ -815,15 +820,16 @@ footer a:hover {
 .main_menu .link_menu2 .section_menu2 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform 400ms;
-  transition: -webkit-transform 400ms;
-  transition: transform 400ms;
-  transition: transform 400ms, -webkit-transform 400ms;
+  -webkit-transition: opacity 400ms, -webkit-transform 400ms;
+  transition: opacity 400ms, -webkit-transform 400ms;
+  transition: transform 400ms, opacity 400ms;
+  transition: transform 400ms, opacity 400ms, -webkit-transform 400ms;
 }
 
 .main_menu .link_menu2 .section_menu2:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+  opacity: 0.8;
 }
 
 .main_menu .link_menu3 {
@@ -835,15 +841,16 @@ footer a:hover {
 .main_menu .link_menu3 .section_menu3 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform 400ms;
-  transition: -webkit-transform 400ms;
-  transition: transform 400ms;
-  transition: transform 400ms, -webkit-transform 400ms;
+  -webkit-transition: opacity 400ms, -webkit-transform 400ms;
+  transition: opacity 400ms, -webkit-transform 400ms;
+  transition: transform 400ms, opacity 400ms;
+  transition: transform 400ms, opacity 400ms, -webkit-transform 400ms;
 }
 
 .main_menu .link_menu3 .section_menu3:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+  opacity: 0.8;
 }
 
 .main_menu .link_menu4 {
@@ -855,15 +862,16 @@ footer a:hover {
 .main_menu .link_menu4 .section_menu4 {
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: -webkit-transform 400ms;
-  transition: -webkit-transform 400ms;
-  transition: transform 400ms;
-  transition: transform 400ms, -webkit-transform 400ms;
+  -webkit-transition: opacity 400ms, -webkit-transform 400ms;
+  transition: opacity 400ms, -webkit-transform 400ms;
+  transition: transform 400ms, opacity 400ms;
+  transition: transform 400ms, opacity 400ms, -webkit-transform 400ms;
 }
 
 .main_menu .link_menu4 .section_menu4:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+  opacity: 0.8;
 }
 
 .main_soon {
