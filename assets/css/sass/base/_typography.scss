@@ -30,7 +30,7 @@ header{
 .link_menu2{ 
     .menu2_title{
         @include font-menu ($font-menu2-title, $font-size-menutitle2);
-        @include color-gradient ($font-size-menutitle2, $font-color-menu2, $font-colortrans-menu2);
+        @include color-gradient ($font-size-menutitle2, $font-color-menu2, $font-colortrans2-menu2);
     } 
     .menu2_content{
     color:$font-color-menu2;
@@ -103,7 +103,7 @@ header{
     .section_menu2{
         .menu2_title{
             @include font-menu ($font-menu2-title, $font-size-menutitle-page2); 
-            @include color-gradient ($font-size-menutitle-page2, $font-color-menu2, $font-colortrans-menu2); 
+            @include color-gradient ($font-size-menutitle-page2, $font-color-menu2, $font-colortrans2-menu2); 
         }
         .menu2_content{
         @include font-menu ($font-menu2-menu, $font-size-menucontent2);
