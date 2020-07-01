@@ -1,5 +1,6 @@
 @media (max-width: 768px){
     /*header*/
+    AAAA
 header{
     h1{
         font-size:1.5rem;
@@ -9,11 +10,11 @@ header{
 /*home*/
 .main_menu{
     .container_link{        
-        min-width:17rem;
+        max-width:20%;
         min-height:21rem;
-        margin: 1rem;
+        margin-right: auto;
+        margin-left: auto;
     .link_menu{
-        padding: 1rem;
         .menu_title{
             font-size:2rem;
             margin:1rem;

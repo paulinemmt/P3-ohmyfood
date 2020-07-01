@@ -1,4 +1,5 @@
 @media (max-width: 600px){
+    aaaa
     /*header*/
     header{
         h1{
@@ -10,9 +11,10 @@
     .main_menu{
         margin-top:1rem;
         .container_link{
-            min-width:17rem;
+            min-width:20%;
             min-height:20rem;
-            margin: 1rem;
+            margin-right: auto;
+            margin-left: auto;
                 .menu_link{
                 padding: 1rem;
                 .menu_title{
