@@ -1,16 +1,16 @@
 {
   "name": "ohmyfood",
   "version": "1.0.0",
-  "description": "Creation site web de restauration en ligne",
+  "description": "Dynamiser une page web avec des animations CSS",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./css/sass/main.scss:./css/main.css"
+    "sass": "sass ./sass/main.scss:./sass/main.css --watch --no-source-map --style expanded"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paulinemmt/P3-ohmyfood.git"
   },
-  "author": "Pauline Momot",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/paulinemmt/P3-ohmyfood/issues"

@@ -1,6 +1,5 @@
 @media (max-width: 768px){
     /*header*/
-    AAAA
 header{
     h1{
         font-size:1.5rem;
@@ -11,7 +10,6 @@ header{
 .main_menu{
     .container_link{        
         max-width:20%;
-        min-height:21rem;
         margin-right: auto;
         margin-left: auto;
     .link_menu{
@@ -81,36 +79,35 @@ header{
                         float:left;
                         margin:0rem 0rem 0.625rem 0rem;
                         }
-                        .line_right{
-                            float:right;
-                            margin:0rem 0rem 0.625rem 0rem;
-                        }
+                    .line_right{
+                        float:right;
+                        margin:0rem 0rem 0.625rem 0rem;
+                    }
         }
         .dish_list{
             display:flex;
             flex-flow:column;
-            .dish_content{
-                display:flex;
-                flex-direction:row;
-                justify-content:space-between;
-            margin:0rem;
-            .dish{
-                font-size:1rem;
-                text-align:left;
-                padding:0.2rem 1rem 0.5rem 0rem;
+                .dish_content{
+                    display:flex;
+                    flex-direction:row;
+                    justify-content:space-between;
+                margin:0rem;
+                .dish{
+                    font-size:1rem;
+                    text-align:left;
+                    padding:0.2rem 1rem 0.5rem 0rem;
+                }
+                .price{
+                    font-size:1.1rem;
+                    text-align:right;
+                    padding:0.2rem 0rem 0.5rem 0rem;
+                }
             }
-            .price{
-                font-size:1.1rem;
-                text-align:right;
-                padding:0.2rem 0rem 0.5rem 0rem;
-            }
-         }
-     }
- }
+        }
+    }
 }
 /*footer*/
 footer{
-    padding:0.7rem;
     a{
         text-align:center;
         font-size:1.1rem;

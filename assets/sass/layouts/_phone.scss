@@ -1,5 +1,4 @@
 @media (max-width: 600px){
-    aaaa
     /*header*/
     header{
         h1{
@@ -11,11 +10,11 @@
     .main_menu{
         margin-top:1rem;
         .container_link{
-            min-width:20%;
+            min-width:80%;
             min-height:20rem;
             margin-right: auto;
             margin-left: auto;
-                .menu_link{
+            .menu_link{
                 padding: 1rem;
                 .menu_title{
                     font-size:2rem;
@@ -65,7 +64,7 @@
                    .endnote_title{
                     font-size:1.8rem;
                     margin-bottom:0.6rem;
-                }
+                    }
                }
             }     
            .section_dish{
@@ -105,15 +104,13 @@
                 }
             }
         }
+    }
     /*footer*/
     footer{
-        padding:0.7rem;
         a{
             text-align:center;
             font-size:0.6rem;
         }
     }
-    }
-    }
-    
+}    
     
