@@ -1,0 +1,117 @@
+@media (max-width: 600px){
+    /*header*/
+    header{
+        h1{
+            font-size:1.5rem;
+            padding:1rem;
+        }
+    }
+    /*home*/
+    .main_menu{
+        margin-top:1rem;
+        .container_link{
+            min-width:17rem;
+            min-height:20rem;
+            margin: 1rem;
+                .menu_link{
+                padding: 1rem;
+                .menu_title{
+                    font-size:2rem;
+                    margin:1rem;
+                }
+                .menu2_title{
+                    font-size:1.7rem;
+                }
+                .menu_content{
+                    font-size:2.2rem;
+                    margin:1rem;
+                }
+            }
+        }
+    }
+    .main_soon{
+        .text_soon{
+            font-size:1.2rem;
+            margin-bottom:1.3rem;
+        }
+    }
+    /*annex pages*/
+    .menu_pages{
+           .title{
+               margin-top:1.75rem;
+               margin-bottom:0rem;
+               font-size:1.5rem;
+           }
+           .section_menu{
+               margin: 0.9rem 1.3rem 0.9rem 1.3rem;
+               padding:1rem 1.5rem 2rem 1.5rem;
+               .menu1_icone{
+                   font-size:2.5rem;
+               }
+               .menu_title{
+                   font-size:1.8rem;
+                   margin-bottom:1.3rem;
+               }
+            }
+            .section_menu1{
+               .article_endnote{
+                   margin-top:1rem;
+                   .end_note{
+                       font-size:1.5rem;
+                       padding-top:0.4rem;
+                   }
+                   .endnote_title{
+                    font-size:1.8rem;
+                    margin-bottom:0.6rem;
+                }
+               }
+            }     
+           .section_dish{
+               margin-bottom:0.5rem;
+               .dish_title{
+                   .title_box{
+                       position:relative;
+                       margin-top:0.5rem; 
+                       margin-bottom:0.3rem;
+                       font-size:1.3rem;           
+                           }                   
+                   .line_left{
+                        display:none;
+                       }
+                       .line_right{
+                            display:none;   
+                       }
+               }
+               .dish_list{
+                   display:flex;
+                   flex-flow:column;
+                   .dish_content{
+                       display:flex;
+                       flex-direction:row;
+                       justify-content:space-between;
+                   margin:0rem;
+                   .dish{
+                       font-size:1rem;
+                       text-align:left;
+                       padding:0.2rem 1rem 0.5rem 0rem;
+                   }
+                   .price{
+                       font-size:1.1rem;
+                       text-align:right;
+                       padding:0.2rem 0rem 0.5rem 0rem;
+                   }
+                }
+            }
+        }
+    /*footer*/
+    footer{
+        padding:0.7rem;
+        a{
+            text-align:center;
+            font-size:0.6rem;
+        }
+    }
+    }
+    }
+    
+    

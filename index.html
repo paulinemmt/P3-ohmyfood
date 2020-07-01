@@ -3,11 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>ohmyfood - Réservez vos menus en ligne</title> 
+    <title>ohmyfood - Réservez vos menus en ligne</title>
     <meta name="viewport" content="width=device-width">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Parisienne&family=Lobster&family=Vidaloka&family=Kalam&family=Kaushan+Script&family=Devonshire&family=Caveat&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Parisienne&family=Lobster&family=Vidaloka&family=Kalam&family=Kaushan+Script&family=Devonshire&family=Caveat&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.13.0-web/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/sass/main.css">    
+    <link rel="stylesheet" media="all and (max-width:768px)" href="assets/css/tablet.css" />
+    <link rel="stylesheet" media="all and (max-width:600px)" href="assets/css/phone.css" />    
+    <link rel="stylesheet" href="assets/css/sass/main.css">
 </head>
 
 <body>
@@ -16,43 +20,46 @@
     </header>
     <main>
         <section class="main_menu">
-            <a href="menu-LNE.html" class="link_menu link_menu1">
-                <div class="section_menu1">
-                    <i class="fas fa-music menu1_icone"></i>
-                    <hgroup>
-                        <h2 class="menu_title menu1_title">La note enchantée</h2>
-                        <h3 class="menu_content menu1_content">Menu</h3>
-                    </hgroup>
-                </div>
-            </a>
-            <a href="menu-LCF.html" class="link_menu link_menu2">
-                <div class="section_menu2">
-                    <hgroup>
+            <div class="container_link container_link1">
+                <a href="menu-LNE.html" class="link_menu link_menu1">
+                    <div class="section_menu1">
+                        <i class="fas fa-music menu1_icone"></i>
+                        <hgroup>
+                            <h2 class="menu_title menu1_title">La note enchantée</h2>
+                            <h3 class="menu_content menu1_content">Menu</h3>
+                        </hgroup>
+                    </div>
+                </a>
+            </div>
+            <div class="container_link container_link2">
+                <a href="menu-LCF.html" class="link_menu link_menu2">
+                    <hgroup class="section_menu2">
                         <h2 class="menu_title menu2_title">Le chic à la française</h2>
                         <h3 class="menu_content menu2_content">Menu</h3>
                     </hgroup>
-                </div>
-            </a>
-            <a href="menu-LDP.html" class="link_menu link_menu3">
-                <div class="section_menu3">
-                    <hgroup>
+                </a>
+            </div>
+            <div class="container_link container_link3">
+                <a href="menu-LDP.html" class="link_menu link_menu3">
+                    <hgroup class="section_menu3">
                         <h2 class="menu_title menu3_title">Le délice des papilles</h2>
                         <h3 class="menu_content menu3_content">Menu</h3>
                     </hgroup>
-                </div>
-            </a>
-            <a href="menu-LPG.html" class="link_menu link_menu4">
-                <div class="section_menu4">
-                    <hgroup>
+                </a>
+            </div>
+            <div class="container_link container_link4">
+                <a href="menu-LPG.html" class="link_menu link_menu4">
+                    <hgroup class="section_menu4">
                         <h2 class="menu_title menu4_title">La palette du goût</h2>
                         <h3 class="menu_content menu4_content">Menu</h3>
                     </hgroup>
-                </div>
-            </a>
+                </a>
+            </div>
         </section>
-        <section class="main_soon">
-            <p class="text_soon">Prochainement <span class="anim-point1">.</span><span class="anim-point2">.</span><span class="anim-point3">.</span></p>
-        </section>
+        <div class="main_soon">
+            <p class="text_soon">Prochainement <span class="anim-point1">.</span><span class="anim-point2">.</span><span
+                    class="anim-point3">.</span></p>
+        </div>
     </main>
     <footer>
         <a href="mlegal.html" target="_blank">Mentions légales</a>

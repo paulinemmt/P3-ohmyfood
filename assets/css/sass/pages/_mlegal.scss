@@ -1,0 +1,25 @@
+.mlegal_content{
+    margin:3rem 3rem 0rem 3rem;
+    text-align:center;
+    .mlegal_title{  
+    margin:4rem 0rem;
+    }
+    .mlegal_identity{
+        margin:4rem auto;
+        padding:0rem 1rem 1rem 1rem;
+        width:90%;
+        max-width:45rem;
+        border:0.1rem solid $primary-color;
+        border-radius:0.5rem;
+        box-shadow:1px 1px 8px #d6d6d6;
+    }
+    .mlegal_information{
+        .mlegal_subtitle{
+            margin-top:4rem;
+        }
+        .mlegal_note{
+            text-align:left;
+            margin-top:6rem;
+        }
+    }
+}

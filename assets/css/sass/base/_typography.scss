@@ -75,9 +75,11 @@ header{
             @include color-gradient ($font-size-iconepage, $font-color-icone-start, $font-color-icone-end);
         }
         .menu1_title{
+            color:$font-color-menu1;
             @include font-menu ($font-menu1-title, $font-size-menutitle-page1); 
         }
         .menu1_content{
+            color:$font-color-menu1;
             @include font-menu ($font-menu1-menu, $font-size-menucontent1);
             .dish_title{
                 font-size:$font-size-dishtitle1;
@@ -96,6 +98,7 @@ header{
                 @include color-gradient ($font-size-endnote, $font-color-icone-start, $font-color-icone-end);
             }
             .endnote_title{
+                color:$font-color-menu1;
                 @include font-menu ($font-menu1-title, $font-size-endnote);
             }
         }

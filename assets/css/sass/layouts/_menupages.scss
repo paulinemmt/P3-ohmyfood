@@ -1,0 +1,135 @@
+.menu_pages{
+ text-align:center;
+    .title{
+        margin-top:3.75rem;
+        margin-bottom:0rem
+    }
+    .section_dish{
+        margin-bottom:3.125rem;
+        .dish_title{
+            width:100%;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            .title_box{
+                position:relative;  
+                width:30%          
+                    }                   
+            .line_left{
+                float:left;
+                margin:2.1875rem 0rem 0.625rem 0rem;
+                width:30%;
+                }
+                .line_right{
+                    float:right;
+                    margin:2.1875rem 0rem 0.625rem 0rem;
+                    width:30%
+                }
+        }
+        .dish_list{
+            width:100%;
+            .dish_content{
+                list-style-type: none;
+                margin:0rem 2.5rem;
+                padding: 0rem;
+                display:flex;
+                flex-direction:row;
+                justify-content:space-between;
+                .dish{
+                    text-align:left;
+                    padding: 1.25rem;
+                }
+                .price{
+                    text-align:right;
+                    padding: 1.25rem;
+                }
+            }
+        }
+    }
+    .section_menu1{
+        @include box-color($menu1-color);
+        margin:$margin-menu;
+        padding:$padding-menu; 
+        padding-bottom:2rem;
+        .menu1_title{
+            margin-top:0rem;
+            margin-bottom:2.375rem;
+        }
+        .menu1_line{
+            @include size-menu-line ($height-menu1-line, $width-menu1-line);
+        } 
+        .title_box{
+            margin-top:$margin-titlebox1;
+            margin-bottom:0rem;
+            min-width:$min-width-titlebox1;
+        }
+        .article_endnote{
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            margin-top:3rem;
+            .end_note{
+                padding-right:1rem;
+            }
+            .endnote_title{
+            margin-top:0rem;
+            }
+        }
+    }
+    .section_menu2{
+        @include box-color($menu2-color);
+        margin:$margin-menu;
+        padding:$padding-menu2;  
+        .menu2_title{
+            margin-bottom:5rem;
+        }
+        .menu2_line{
+            @include size-menu-line ($height-menu2-line, $width-menu2-line);
+        }   
+        .title_box{
+            margin-top:$margin-titlebox2;
+            min-width:$min-width-titlebox2;
+            margin-bottom:0rem;
+        }
+    }
+    .section_menu3{
+        @include box-color($menu3-color);
+        margin:$margin-menu;
+        padding:$padding-menu3;
+        .menu3_title{
+            margin-bottom:5rem;
+        }
+        .menu3_line{
+            @include size-menu-line ($height-menu3-line, $width-menu3-line);
+        }
+        .section_dish{
+            .dish li{
+                padding-left: 1rem;
+            }
+            .price li{
+                padding-right:1rem;
+            }
+        }
+        .title_box{
+            margin-top:$margin-titlebox3;
+            min-width:$min-width-titlebox3;
+            margin-bottom:1rem;
+        }
+    }
+    .section_menu4{
+        @include box-color($menu4-color);
+        margin:$margin-menu;
+        padding:$padding-menu4;
+        .menu4_title{
+            margin-bottom:5rem;
+        }
+        .menu4_line{
+            @include size-menu-line ($height-menu4-line, $width-menu4-line);
+        }
+        .title_box{
+            margin-top:$margin-titlebox4;
+            min-width:$min-width-titlebox4;
+            margin-bottom:1rem;
+        }
+    }
+}
