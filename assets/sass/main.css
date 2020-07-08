@@ -906,8 +906,10 @@ footer a:hover {
 @media (max-width: 600px) {
   /*header*/
   header h1 {
-    font-size: 1.5rem;
     padding: 1rem;
+  }
+  header h1 a {
+    font-size: 1rem;
   }
   /*home*/
   .main_menu {
@@ -1003,6 +1005,6 @@ footer a:hover {
   /*footer*/
   footer a {
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
